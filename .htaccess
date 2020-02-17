@@ -1,0 +1,4 @@
+AuthUserFile .htpasswd
+AuthName “Oakcreste Visitor Spots”
+AuthType Digest
+require valid-user
