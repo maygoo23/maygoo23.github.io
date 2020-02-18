@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+.rotate-180 {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -703,7 +709,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+		
 		@media screen and (max-width: 736px) {
 
 			.image.main {
